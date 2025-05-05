@@ -7,7 +7,6 @@ import {
   Button,
   CardActionArea,
   Box,
-  IconButton,
 } from "@mui/material";
 import { Link } from "react-router-dom";
 import { Quiz } from "../types/quiz";

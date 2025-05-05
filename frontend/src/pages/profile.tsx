@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import {
   Container,
   Typography,
@@ -6,7 +6,6 @@ import {
   Avatar,
   Button,
   Paper,
-  Grid,
 } from "@mui/material";
 import { styled } from "@mui/system";
 import QuizService from "../services/quizService";

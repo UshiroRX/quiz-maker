@@ -10,8 +10,6 @@ import {
 import { Link, useNavigate } from "react-router-dom";
 import { useAuth } from "../contexts/AuthContext";
 import LogoutIcon from "@mui/icons-material/Logout";
-import logoutIcon from "../assets/logout-svgrepo-com.svg";
-
 export const Header = () => {
   const { isAuthenticated, username, logout } = useAuth();
   const navigate = useNavigate();
