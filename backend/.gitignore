@@ -1,0 +1,51 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Environment
+.env
+.env.*
+*.env
+
+# Virtual environment
+venv/
+.venv/
+
+# IDEs
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Pytest
+.pytest_cache/
+.cache/
+
+# MyPy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Coverage reports
+htmlcov/
+.coverage
+.coverage.*
+
+# Database
+*.sqlite3
+*.db
+
+# Static & media (если ты что-то туда сохраняешь)
+staticfiles/
+media/
+
+# Pydantic schema cache
+*.schema.json
