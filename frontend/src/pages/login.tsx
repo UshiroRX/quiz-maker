@@ -20,7 +20,7 @@ function LoginPage() {
         username,
         password,
       };
-      const response = await authService.login(userData);
+      await authService.login(userData);
       login();
       navigate("/quizzes");
     } catch (error) {
